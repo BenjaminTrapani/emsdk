@@ -922,8 +922,8 @@
     "version": "incoming",
     "bitness": 64,
     "append_bitness": false,
-    "url": "https://github.com/kripken/emscripten.git",
-    "git_branch": "incoming",
+    "url": "https://github.com/BenjaminTrapani/emscripten",
+    "git_branch": "inkplatform-upstream-incoming",
     "activated_cfg": "EMSCRIPTEN_ROOT='%installation_dir%';EMSCRIPTEN_NATIVE_OPTIMIZER='%installation_dir%%generator_prefix%_64bit_optimizer/%cmake_build_type_on_win%optimizer%.exe%'",
     "activated_path": "%installation_dir%",
     "activated_env": "EMSCRIPTEN=%installation_dir%;EMSCRIPTEN_NATIVE_OPTIMIZER=%installation_dir%%generator_prefix%_64bit_optimizer/%cmake_build_type_on_win%optimizer%.exe%",
@@ -1182,7 +1182,7 @@
     "version_filter": [
       ["%tag%", ">", "1.37.22"]
     ]
-  },  
+  },
   {
     "version": "nightly-%nightly-llvm-32bit%",
     "bitness": 32,
